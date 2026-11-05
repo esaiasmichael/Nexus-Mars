@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+:root { --obsidian:#08090b; --panel:#111316; --line:#46484c; --silver:#d4d7da; --muted:#9a9ea5; --mars:#b9755b; }
+html,body,[class*="st-"]{font-family:Inter,Arial,sans-serif}
+.stApp {background:radial-gradient(ellipse at 48% 12%,#1d1e21 0%,#0c0d10 35%,#08090b 80%);color:#eff0f1}
+[data-testid="stMainBlockContainer"]{max-width:1900px;padding:1.15rem 2.2rem 3rem}
+[data-testid="stSidebar"]{background:linear-gradient(180deg,#151619,#090a0c 85%);border-right:1px solid #3b3e42;min-width:215px}
+[data-testid="stSidebar"] [data-testid="stSidebarContent"]{padding:1.3rem .8rem}
+.side-mark{text-align:center;color:#e6e8ea;font-size:3rem;line-height:1.3;margin-top:12px}
+.side-title{text-align:center;font-size:1.35rem;font-weight:600;letter-spacing:.45em;margin:12px 0 5px}
+.side-subtitle{text-align:center;color:#c3c6c9;letter-spacing:.22em;font-size:.55rem;margin-bottom:2.2rem}
+.side-footer{font-size:.55rem;letter-spacing:.13em;line-height:2;color:#a6aab0;margin-top:2rem}.side-footer span{color:#b97961}
+[data-testid="stSidebar"] [role="radiogroup"] label{padding:.6rem .35rem;border-radius:2px;margin:2px 0}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked){background:#2b2d31;border-left:2px solid #e9eaec}
+.topline{display:flex;align-items:center;gap:2rem;border-bottom:1px solid #51545a;padding:.4rem 0 1.2rem;margin-bottom:1.3rem;white-space:nowrap}
+.topword{font-size:1.5rem;font-weight:600;letter-spacing:.48em}.topmeta{font-size:.76rem;letter-spacing:.35em;color:#e5e6e8}.topmeta b{font-weight:400;color:#b2b5ba;margin-left:1rem}.preview{margin-left:auto;border:1px solid #72757a;border-radius:4px;padding:.5rem .8rem;font-size:.57rem;letter-spacing:.1em;color:#c7c9cc}
+.hero-copy{padding-top:3.6rem}.hero-title{font-size:clamp(2.1rem,3.2vw,4.1rem);font-weight:500;letter-spacing:.12em;line-height:1.12}.hero-kicker{font-size:.63rem;letter-spacing:.18em;margin-top:1.3rem;color:#f0f1f2;white-space:nowrap}.hero-copy p{color:#b9bcc0;font-size:.88rem;line-height:1.7;margin:2rem 0 1rem;max-width:310px}.hero-rule{height:1px;background:linear-gradient(90deg,#ddd 75%,transparent);margin:1.7rem 0}
+.planet-heading,.panel-label,.section-heading{font-size:.66rem;letter-spacing:.23em;color:#e7e9eb;font-weight:600}.planet-heading{padding:.4rem 0 .7rem;border-bottom:1px solid #3e4146}.section-heading{margin:1.8rem 0 1rem;border-bottom:1px solid #44474c;padding-bottom:.7rem}.inner-heading{font-size:2.1rem;letter-spacing:.22em;margin:1.4rem 0 1.8rem}
+[data-testid="stVerticalBlockBorderWrapper"]{background:linear-gradient(135deg,#1a1b1e,#0c0d0f);border:1px solid #62646a!important;border-radius:3px!important;padding:.45rem}
+.panel-label{border-bottom:1px solid #55575b;padding:.35rem 0 .8rem;margin-bottom:.9rem}
+.context-row{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px solid #36383c;padding:.55rem 0;font-size:.72rem;color:#afb3b8}.context-row strong{font-weight:500;color:#f4f5f6}
+[data-testid="stMetric"]{border-left:1px solid #484a4e;padding:.2rem .7rem;background:transparent}
+[data-testid="stMetricLabel"]{font-size:.62rem;letter-spacing:.05em;color:#b9bec3}
+[data-testid="stMetricValue"]{font-size:1.25rem;font-weight:600;color:#f4f5f6}
+[data-testid="stPlotlyChart"]{border:1px solid #33363b;background:#08090b}
+[data-testid="stImage"] img{border:1px solid #45474c;border-radius:3px;object-fit:cover}
+.card-title{font-size:.68rem;letter-spacing:.09em;font-weight:600;margin:.6rem 0 .3rem}.card-desc{font-size:.69rem;color:#a7abb0;margin-bottom:.7rem}.missing-photo{height:130px;background:#16181b;border:1px solid #555;display:grid;place-items:center;color:#aaa;font-size:.7rem}
+.stButton button,.stLinkButton a,.stDownloadButton button{border:1px solid #676a70!important;background:linear-gradient(180deg,#25272b,#111316)!important;color:#e9ebee!important;border-radius:2px!important;letter-spacing:.08em;font-size:.65rem;transition:.2s}
+.stButton button:hover,.stLinkButton a:hover,.stDownloadButton button:hover{border-color:#f0f1f2!important;background:#33363a!important}
+[data-testid="stSlider"] [role="slider"]{background:#e0e2e4!important}
+[data-testid="stSlider"] [data-testid="stTickBar"]{color:#aaa}
+.footnote{border-top:1px solid #3e4145;color:#7d8188;letter-spacing:.16em;font-size:.57rem;margin-top:2.4rem;padding-top:1rem}
+@media(max-width:1100px){.topline{gap:.8rem;flex-wrap:wrap}.topword{font-size:1.05rem}.topmeta{font-size:.6rem}.hero-copy{padding-top:1rem}.hero-title{font-size:2rem}[data-testid="stMainBlockContainer"]{padding:1rem}}
