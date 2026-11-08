@@ -22,10 +22,6 @@ The app opens in a browser, usually at `http://localhost:8501`.
 - Altitude and solar-longitude distributions
 - Filtered observation table and CSV export
 
-## What this is not
-
-This is **not** a complete physical atmospheric digital twin, live Mars weather, a forecast, or an estimate of true cloud occurrence probability. Observation coverage is not normalised. The globe's illustrative land shading is not a Martian terrain basemap. Confirm field units and dataset reuse terms against JPL metadata before external release.
-
 ## Provenance
 
 Slipski, M. et al. (2023). *Replication Data for Cloudspotting on Mars Citizen Science Cloud Centroids for Mars Year 29*, JPL Open Repository, v1.2. DOI: https://doi.org/10.48577/jpl.UXMDDK
